@@ -13,3 +13,8 @@ type Parser interface {
 	// notification channel
 	ParseMessage() (resources.Message, error)
 }
+
+// NewGit returns a Parser that reads and parses message from git logs
+func NewGit() Parser {
+	return git{}
+}
