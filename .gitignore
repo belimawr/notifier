@@ -1,0 +1,8 @@
+vendor
+flymd.html
+flymd.md
+*.bak
+\#*\#
+.\#*
+*\#*\.go
+\.DS_Store
